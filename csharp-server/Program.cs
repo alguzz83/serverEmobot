@@ -32,15 +32,15 @@ namespace csharp_server
     {
         static void Main(string[] args)
         {
-            WebSocketServer server = new WebSocketServer("ws://192.168.1.190:7890");
+            WebSocketServer server = new WebSocketServer("ws://198.251.71.3:7890");
 
             server.AddWebSocketService<Echo>("/Echo");
             server.AddWebSocketService<EchoAll>("/EchoAll");
 
             server.KeepClean = false;
             server.Start();
-            Console.WriteLine("Server iniciado: ws://192.168.1.190:7890/Echo");
-            Console.WriteLine("Server iniciado: ws://192.168.1.190:7890/EchoAll");
+            Console.WriteLine("Server iniciado: ws://198.251.71.3:7890/Echo");
+            Console.WriteLine("Server iniciado: ws://198.251.71.3:7890/EchoAll");
 
             Console.ReadKey();
             //server.Stop();
