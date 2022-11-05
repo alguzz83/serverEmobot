@@ -14,6 +14,7 @@ namespace csharp_server
 
     public class Echo : WebSocketBehavior
     {
+        
         string[] splitData;
         string htcpId = "";
         string userId = "";
@@ -64,12 +65,10 @@ namespace csharp_server
             }
             Console.WriteLine("Recibiendo: " + e.Data);
             splitData = e.Data.Split(chara);
-            if (activeHtcp == false)
-            {
+            
                 if (splitData[0] == "#^#")
                 {
-                    htcpId = ID;
-                    activeHtcp = true;
+               
                     XmlTextWriter textWriter = new XmlTextWriter(saveFilePath, null);
                     // Opens the document
                     textWriter.WriteStartDocument();
@@ -100,13 +99,10 @@ namespace csharp_server
                     // close writer
                     textWriter.Close();
                 }
-            }
-            if (activeUser == false)
-            {
+            
                 if (splitData[0] == "user")
                 {
-                    userId = ID;
-                    activeUser = true;
+                    
                     XmlTextWriter textWriter = new XmlTextWriter(saveFilePath, null);
                     // Opens the document
                     textWriter.WriteStartDocument();
@@ -137,7 +133,6 @@ namespace csharp_server
                     // close writer
                     textWriter.Close();
                 }
-            }
             switch (splitData[0])
             {
                 case "#^#":
