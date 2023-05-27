@@ -48,3 +48,13 @@ C:\Users\Jorge\Downloads\ServerGit\serverEmobot\csharp-server\obj\Debug\csharp-s
 C:\Users\Jorge\Downloads\ServerGit\serverEmobot\csharp-server\obj\Debug\csharp-server.csproj.CopyComplete
 C:\Users\Jorge\Downloads\ServerGit\serverEmobot\csharp-server\obj\Debug\csharp-server.exe
 C:\Users\Jorge\Downloads\ServerGit\serverEmobot\csharp-server\obj\Debug\csharp-server.pdb
+C:\Users\PC\Desktop\emovere\serverEmobot\csharp-server\bin\Debug\csharp-server.exe.config
+C:\Users\PC\Desktop\emovere\serverEmobot\csharp-server\bin\Debug\csharp-server.exe
+C:\Users\PC\Desktop\emovere\serverEmobot\csharp-server\bin\Debug\csharp-server.pdb
+C:\Users\PC\Desktop\emovere\serverEmobot\csharp-server\bin\Debug\websocket-sharp.dll
+C:\Users\PC\Desktop\emovere\serverEmobot\csharp-server\obj\Debug\csharp-server.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\emovere\serverEmobot\csharp-server\obj\Debug\csharp-server.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\Desktop\emovere\serverEmobot\csharp-server\obj\Debug\csharp-server.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\emovere\serverEmobot\csharp-server\obj\Debug\csharp-server.csproj.CopyComplete
+C:\Users\PC\Desktop\emovere\serverEmobot\csharp-server\obj\Debug\csharp-server.exe
+C:\Users\PC\Desktop\emovere\serverEmobot\csharp-server\obj\Debug\csharp-server.pdb
