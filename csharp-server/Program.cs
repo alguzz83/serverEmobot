@@ -20,7 +20,6 @@ namespace csharp_server
         bool activeUser = false;
         static string applicationPath = Path.GetFullPath(System.AppDomain.CurrentDomain.BaseDirectory);
         string saveFilePath = Path.Combine(applicationPath, "config.xml");
-        
         protected override void OnMessage(MessageEventArgs e)
         {
             using (XmlReader reader = XmlReader.Create(saveFilePath))
